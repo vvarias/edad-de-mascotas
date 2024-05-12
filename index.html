@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/estilos/style.css">
+<title>Calculadora de IMC y Edad de la Mascota</title>
+
+</head>
+<body>
+<header>
+    <div class="menu container">
+        <a href="#"></a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="assets/img/descarga-removebg-preview-removebg-preview.png" alt="">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#formulario">Calcular IMC</a></li>
+                <li><a href="#edad">Calcular la edad de tu mascota</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content conteiner">
+        <h1>Calculadora de IMC y Edad de la Mascota</h1>
+        <p>
+
+¡Prioriza tu Salud con el IMC! <br>
+
+Tu cuerpo es tu templo y cuidarlo es una inversión en tu bienestar a largo plazo. 
+        </p>
+    </div>
+</header>
+<div id="mascota">
+    <img src="assets/img/Thosho.jfif" alt="Mascota" width="200">
+    <h2>Thosho</h2>
+</div>
+
+<div id="formulario">
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" step="0.01"><br><br>
+
+    <label for="altura">Altura (m):</label>
+    <input type="number" id="altura" step="0.01"><br><br>
+
+    <label for="edad">Edad de la Mascota:</label>
+    <input type="number" id="edad"><br><br>
+
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <button onclick="calcularEdad()">Calcular Edad</button>
+</div>
+
+<div id="resultado"></div>
+
+<script src="assets/java/javascript.js"></script>
+
+</body>
+</html>
